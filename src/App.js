@@ -6,7 +6,6 @@ import Searchbar from './components/Searchbar';
 function App() {
   return (
     <Router>
-      <Searchbar/>
       <Pages/>
     </Router>
   );

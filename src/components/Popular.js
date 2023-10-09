@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 function Popular() {
 
     const [popular, setPopular] = useState([]);
-    const [openRecipe, setOpenRecipe] = useState(true)
+    const [openRecipe, setOpenRecipe] = useState(false)
     const [selectedRecipeId, setSelectedRecipeId] = useState(null)
 
     useEffect(() => {

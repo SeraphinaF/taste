@@ -9,6 +9,7 @@ function Home() {
   return (
     <div>
       <Header/>
+      <Searchbar/>
       <Popular/>
     </div>
   )
