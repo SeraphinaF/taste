@@ -1,0 +1,22 @@
+.search-form{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+input{
+    width: 30%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 2rem;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.586);
+}
+
+.search-icon{
+    position:absolute;
+    top: 15%;
+    right:35%;
+}

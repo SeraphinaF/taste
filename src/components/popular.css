@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.card{
+    min-height:20rem;
+    max-width:20rem;
+    margin: 1rem;
+    background-color: white;
+    box-shadow:4px 6px 8px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.img-card{
+    height: auto;
+    width: 20rem;
+}
+
+.title{
+    text-align: center;
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: 400;
+}
