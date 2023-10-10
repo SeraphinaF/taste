@@ -8,7 +8,6 @@ function Pages() {
   return (
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/favorites" element={<Favorites/>} />
         <Route path="/recipe/:id" element={<Recipe/>} />
         <Route path="/searched/:search" element={<Searched/>}/>
       </Routes>

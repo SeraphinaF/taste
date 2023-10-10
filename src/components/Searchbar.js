@@ -21,7 +21,6 @@ function Searchbar() {
                 placeholder='Search...'
                 value={input}
             />
-            <span className='search-icon'><img src="search_icon.png"></img></span>
         </form>
     )
 }

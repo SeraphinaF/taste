@@ -35,8 +35,8 @@ function Popular() {
                                 setSelectedRecipeId(recipe.id)
                                 setOpenRecipe(true)
                             }}>
-                            <img className='img-card' src={recipe.image} alt={recipe.title} />
-                            <p className='title'>{recipe.title}{recipe.id}</p>
+                            <img className='img-card' src={recipe.image} alt={recipe.title} loading="lazy" />
+                            <p className='title'>{recipe.title}</p>
                         </div>
                     )
                 })}

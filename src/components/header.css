@@ -10,13 +10,6 @@
     max-width: 50%;
     margin-top: 0.5rem;
   }
-  
-  .links-header {
-    grid-column-start:3 ;
-    justify-self: end;
-    display: flex;
-    margin:1rem
-  }
 
   h4{
     margin: 1rem;

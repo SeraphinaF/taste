@@ -26,9 +26,8 @@ function Searched() {
 
   return (
     <div>
-      <Header />
       <Searchbar />
-      <div className='back-to-pop' onClick={() => navigate ('/')}>Go back</div>
+      <div className='back-to-pop' onClick={() => navigate ('/')}> ← Go back</div>
       <div className='container'>
         {searchRecipes.map((item) => (
           <div className="card"
@@ -37,8 +36,8 @@ function Searched() {
               setSelectedRecipeId(item.id)
               setOpenRecipe(true)
             }}>
-            <img className='img-card' src={item.image} alt={item.title} />
-            <p className='title'>{item.title}{item.id}</p>
+            <img className='img-card' src={item.image} alt={item.title} loading="lazy" />
+            <p className='title'>{item.title}</p>
           </div>
         ))}
       </div>

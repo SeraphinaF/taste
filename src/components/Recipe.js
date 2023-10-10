@@ -22,7 +22,7 @@ function Recipe({ setOpenRecipe, recipeId }) {
         <div className='modal-bg'>
             <div className='modal-container'>
                 <div className='modal-input'>
-                    <img className="details-img" src={details.image} alt={details.title} />
+                    <img className="details-img" src={details.image} alt={details.title} loading="lazy"/>
                     <button
                         className='close-btn'
                         onClick={() => {

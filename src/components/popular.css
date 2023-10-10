@@ -22,5 +22,12 @@
     text-align: center;
     font-family: poppins;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.back-to-pop{
+     font-size: 1rem;
+     font-weight: 600;
+     margin-left: 7rem;
+     
 }
