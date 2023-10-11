@@ -5,10 +5,11 @@ import Searchbar from './components/Searchbar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router basename={process.env.PUBLIC_URL}>
       <Pages/>
-    </BrowserRouter>
+    </Router>
   );
 }
+
 
 export default App;

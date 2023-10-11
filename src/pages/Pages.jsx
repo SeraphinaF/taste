@@ -6,11 +6,13 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
 function Pages() {
   return (
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/recipe/:id" element={<Recipe/>} />
-        <Route path="/searched/:search" element={<Searched/>}/>
-      </Routes>
+
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/recipe/:id" element={<Recipe />} />
+      <Route path="/searched/:search" element={<Searched />} />
+    </Routes>
+
   );
 }
 
