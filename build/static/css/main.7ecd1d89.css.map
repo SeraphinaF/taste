@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "file": "static/css/main.7ecd1d89.css",
+    "mappings": "AAAA,KAKE,kCAAmC,CACnC,iCAAkC,CAJlC,mIAEY,CAHZ,QAMF,CAEA,KACE,uEAEF,CCZA,kBACI,YAAa,CACb,iCACF,CAEA,YACE,mBAAoB,CAEpB,WAAY,CADZ,mBAAoB,CAGpB,gBAAkB,CADlB,aAEF,CAEA,GACE,WACF,CCfF,WAEI,YAAa,CACb,cAAe,CACf,SAAU,CAHV,UAIJ,CACA,MAII,qBAAuB,CACvB,wCAA8C,CAF9C,WAAY,CAFZ,gBAAgB,CAKhB,eAAgB,CAJhB,WAKJ,CAEA,UACI,WAAY,CACZ,WACJ,CAEA,OAEI,mBAAoB,CADpB,iBAIJ,CAEA,oBAJI,cAAe,CACf,eAQJ,CALA,aAGK,gBAEL,CChCA,UAOI,kBAAmB,CAJnB,qBAAuB,CAEvB,YAAa,CAHb,YAAa,CAIb,sBAAuB,CAFvB,cAAe,CAHf,WAQJ,CAEA,iBAKI,qBAAuB,CAGvB,mBAAqB,CAFrB,YAAa,CAHb,QAAS,CAOT,iBAAkB,CADlB,eAAgB,CARhB,cAAe,CACf,OAAQ,CAER,sCAAgC,CAAhC,8BAAgC,CAGhC,WAIJ,CAEA,aACI,iBACJ,CAEA,WAII,WAAY,CACZ,mBAAqB,CAErB,kBAAmB,CAJnB,QAAS,CAGT,aAAe,CALf,iBAAkB,CAClB,QAMJ,CAEA,aACI,eACJ,CAEA,gBACI,WACJ,CACA,oBACI,WACF,CAEF,0BAEI,kBAAmB,CADnB,2CAEJ,CAGA,0BACI,2BAAgC,CAChC,kBACJ,CAGA,gCACI,kBACJ,CC/DA,aAII,kBAAmB,CAFnB,oBAAqB,CACrB,YAAa,CAEb,sBAAuB,CAJvB,iBAKJ,CAEA,MAMI,6BAAkC,CAFlC,kBAAmB,CACnB,iBAAkB,CAFlB,gBAAkB,CADlB,YAAa,CADb,SAMJ",
+    "sources": [
+        "index.css",
+        "components/header.css",
+        "components/popular.css",
+        "components/recipe.css",
+        "components/searchbar.css"
+    ],
+    "sourcesContent": [
+        "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n",
+        ".container-header {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr 1fr;\r\n  }\r\n  \r\n  .img-header {\r\n    grid-column-start: 2;\r\n    justify-self: center;\r\n    height: auto;\r\n    max-width: 50%;\r\n    margin-top: 0.5rem;\r\n  }\r\n\r\n  h4{\r\n    margin: 1rem;\r\n  }\r\n  \r\n  ",
+        ".container{\r\n    width: 100%;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    margin: 5%;\r\n}\r\n.card{\r\n    min-height:20rem;\r\n    width:20rem;\r\n    margin: 1rem;\r\n    background-color: white;\r\n    box-shadow:4px 6px 8px 0px rgba(0, 0, 0, 0.15);\r\n    overflow: hidden;\r\n}\r\n\r\n.img-card{\r\n    height: auto;\r\n    width: 20rem;\r\n}\r\n\r\n.title{\r\n    text-align: center;\r\n    font-family: poppins;\r\n    font-size: 1rem;\r\n    font-weight: 600;\r\n}\r\n\r\n.back-to-pop{\r\n     font-size: 1rem;\r\n     font-weight: 600;\r\n     margin-left: 7rem;\r\n     \r\n}",
+        ".modal-bg {\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background-color: black;\r\n    position: fixed;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n}\r\n\r\n.modal-container {\r\n    position: fixed;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n    background-color: white;\r\n    height: 40rem;\r\n    width: 30rem;\r\n    border-radius: 0.5rem;\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.modal-input {\r\n    position: relative;\r\n}\r\n\r\n.close-btn {\r\n    position: absolute;\r\n    top: 1rem;\r\n    left: 90%;\r\n    border: none;\r\n    border-radius: 0.2rem;\r\n    padding: 0.5rem;\r\n    font-weight: bolder;\r\n}\r\n\r\n.details-img {\r\n    min-width: 30rem;\r\n}\r\n\r\n.recipe-content{\r\n    margin: 2rem;\r\n}\r\n::-webkit-scrollbar {\r\n    width: 0.5rem;\r\n  }\r\n\r\n::-webkit-scrollbar-track {\r\n    box-shadow: inset 0 0 5px rgba(16, 16, 16, 0.329);\r\n    border-radius: 2rem;\r\n}\r\n\r\n/* Handle */\r\n::-webkit-scrollbar-thumb {\r\n    background: rgba(0, 0, 0, 0.485);\r\n    border-radius: 2rem;\r\n}\r\n\r\n/* Handle on hover */\r\n::-webkit-scrollbar-thumb:hover {\r\n    background: #b30000;\r\n}",
+        ".search-form{\r\n    position: relative;\r\n    display: inline-block;\r\n    display: flex;\r\n    align-items: center; \r\n    justify-content: center;\r\n}\r\n\r\ninput{\r\n    width: 30%;\r\n    padding: 1rem;\r\n    margin-top: 0.5rem;\r\n    border-radius: 2rem;\r\n    border-width: thin;\r\n    border-color: rgba(0, 0, 0, 0.586);\r\n}\r\n"
+    ],
+    "names": [],
+    "sourceRoot": ""
+}
