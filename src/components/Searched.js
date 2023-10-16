@@ -29,7 +29,7 @@ function Searched() {
     <div>
       <Header/>
       <Searchbar />
-      <div className='back-to-pop' onClick={() => navigate('/')}> ← Go back</div>
+      <div className='back-to-pop' onClick={() => navigate('/')}> ← Go black</div>
       <div className='container'>
         {searchRecipes.map((item) => (
           <div className="card"
