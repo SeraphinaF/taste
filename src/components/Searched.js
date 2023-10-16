@@ -4,6 +4,7 @@ import Header from './Header';
 import Recipe from './Recipe';
 import { useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Searched() {
   const [searchRecipes, setSearchedRecipes] = useState([]);
@@ -26,8 +27,9 @@ function Searched() {
 
   return (
     <div>
+      <Header/>
       <Searchbar />
-      <div className='back-to-pop' onClick={() => navigate ('/')}> ← Go back</div>
+      <div className='back-to-pop' onClick={() => navigate('/')}> ← Go back</div>
       <div className='container'>
         {searchRecipes.map((item) => (
           <div className="card"

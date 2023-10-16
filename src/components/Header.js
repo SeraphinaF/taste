@@ -1,11 +1,12 @@
 import './header.css'
 import React from 'react'
+import logo from './assets/taste_logo.png'
 
 
 function Header() {
     return (
         <div className='container-header'>
-            <img className='img-header' src='taste_logo.png' alt='taste logo' />
+            <img className='img-header' src={logo} alt='taste logo' />
         </div>
     )
 }
